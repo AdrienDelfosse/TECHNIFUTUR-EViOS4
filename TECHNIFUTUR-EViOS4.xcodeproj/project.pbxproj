@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F517579226EA23A50026C00A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F517579126EA23A50026C00A /* AppDelegate.swift */; };
+		F517579426EA23A50026C00A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F517579326EA23A50026C00A /* SceneDelegate.swift */; };
+		F517579926EA23A50026C00A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F517579726EA23A50026C00A /* Main.storyboard */; };
+		F517579B26EA23A80026C00A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F517579A26EA23A80026C00A /* Assets.xcassets */; };
+		F517579E26EA23A80026C00A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F517579C26EA23A80026C00A /* LaunchScreen.storyboard */; };
+		F51757AB26EA23FA0026C00A /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51757AA26EA23FA0026C00A /* UserDefaultManager.swift */; };
+		F51757B426EA24630026C00A /* DepensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51757B326EA24630026C00A /* DepensesViewController.swift */; };
+		F51757B826EA24980026C00A /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F51757B626EA24980026C00A /* Model.xcdatamodeld */; };
+		F51757BE26EA255D0026C00A /* Expense+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51757BA26EA255D0026C00A /* Expense+CoreDataClass.swift */; };
+		F51757BF26EA255D0026C00A /* Expense+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51757BB26EA255D0026C00A /* Expense+CoreDataProperties.swift */; };
+		F51757C026EA255D0026C00A /* ExpenseSection+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51757BC26EA255D0026C00A /* ExpenseSection+CoreDataClass.swift */; };
+		F51757C126EA255D0026C00A /* ExpenseSection+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51757BD26EA255D0026C00A /* ExpenseSection+CoreDataProperties.swift */; };
+		F51757C426EA257C0026C00A /* ExpensesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51757C326EA257C0026C00A /* ExpensesManager.swift */; };
+		F51757CE26EA299D0026C00A /* ExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51757CC26EA299D0026C00A /* ExpenseTableViewCell.swift */; };
+		F51757CF26EA299D0026C00A /* ExpenseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51757CD26EA299D0026C00A /* ExpenseTableViewCell.xib */; };
+		F51757D326EA2BA40026C00A /* ExpenseSectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51757D126EA2BA40026C00A /* ExpenseSectionTableViewCell.swift */; };
+		F51757D426EA2BA40026C00A /* ExpenseSectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51757D226EA2BA40026C00A /* ExpenseSectionTableViewCell.xib */; };
+		F51757D726EA2BBC0026C00A /* AddExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51757D626EA2BBC0026C00A /* AddExpenseViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F517578E26EA23A50026C00A /* TECHNIFUTUR-EViOS4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TECHNIFUTUR-EViOS4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F517579126EA23A50026C00A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F517579326EA23A50026C00A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F517579826EA23A50026C00A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F517579A26EA23A80026C00A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F517579D26EA23A80026C00A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F517579F26EA23A80026C00A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F51757AA26EA23FA0026C00A /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		F51757B326EA24630026C00A /* DepensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepensesViewController.swift; sourceTree = "<group>"; };
+		F51757B726EA24980026C00A /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		F51757BA26EA255D0026C00A /* Expense+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expense+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		F51757BB26EA255D0026C00A /* Expense+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expense+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		F51757BC26EA255D0026C00A /* ExpenseSection+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExpenseSection+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		F51757BD26EA255D0026C00A /* ExpenseSection+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExpenseSection+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		F51757C326EA257C0026C00A /* ExpensesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesManager.swift; sourceTree = "<group>"; };
+		F51757CC26EA299D0026C00A /* ExpenseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTableViewCell.swift; sourceTree = "<group>"; };
+		F51757CD26EA299D0026C00A /* ExpenseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpenseTableViewCell.xib; sourceTree = "<group>"; };
+		F51757D126EA2BA40026C00A /* ExpenseSectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseSectionTableViewCell.swift; sourceTree = "<group>"; };
+		F51757D226EA2BA40026C00A /* ExpenseSectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpenseSectionTableViewCell.xib; sourceTree = "<group>"; };
+		F51757D626EA2BBC0026C00A /* AddExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F517578B26EA23A50026C00A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F517578526EA23A50026C00A = {
+			isa = PBXGroup;
+			children = (
+				F517579026EA23A50026C00A /* TECHNIFUTUR-EViOS4 */,
+				F517578F26EA23A50026C00A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F517578F26EA23A50026C00A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F517578E26EA23A50026C00A /* TECHNIFUTUR-EViOS4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F517579026EA23A50026C00A /* TECHNIFUTUR-EViOS4 */ = {
+			isa = PBXGroup;
+			children = (
+				F51757A926EA23E50026C00A /* util */,
+				F51757A826EA23CC0026C00A /* UI */,
+				F51757A626EA23BF0026C00A /* model */,
+				F517579126EA23A50026C00A /* AppDelegate.swift */,
+				F517579326EA23A50026C00A /* SceneDelegate.swift */,
+				F517579726EA23A50026C00A /* Main.storyboard */,
+				F517579A26EA23A80026C00A /* Assets.xcassets */,
+				F517579C26EA23A80026C00A /* LaunchScreen.storyboard */,
+				F517579F26EA23A80026C00A /* Info.plist */,
+			);
+			path = "TECHNIFUTUR-EViOS4";
+			sourceTree = "<group>";
+		};
+		F51757A626EA23BF0026C00A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F51757BA26EA255D0026C00A /* Expense+CoreDataClass.swift */,
+				F51757BB26EA255D0026C00A /* Expense+CoreDataProperties.swift */,
+				F51757BC26EA255D0026C00A /* ExpenseSection+CoreDataClass.swift */,
+				F51757BD26EA255D0026C00A /* ExpenseSection+CoreDataProperties.swift */,
+				F51757B626EA24980026C00A /* Model.xcdatamodeld */,
+				F51757C326EA257C0026C00A /* ExpensesManager.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F51757A826EA23CC0026C00A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F51757B326EA24630026C00A /* DepensesViewController.swift */,
+				F51757CC26EA299D0026C00A /* ExpenseTableViewCell.swift */,
+				F51757CD26EA299D0026C00A /* ExpenseTableViewCell.xib */,
+				F51757D126EA2BA40026C00A /* ExpenseSectionTableViewCell.swift */,
+				F51757D226EA2BA40026C00A /* ExpenseSectionTableViewCell.xib */,
+				F51757D626EA2BBC0026C00A /* AddExpenseViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F51757A926EA23E50026C00A /* util */ = {
+			isa = PBXGroup;
+			children = (
+				F51757AA26EA23FA0026C00A /* UserDefaultManager.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F517578D26EA23A50026C00A /* TECHNIFUTUR-EViOS4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51757A226EA23A80026C00A /* Build configuration list for PBXNativeTarget "TECHNIFUTUR-EViOS4" */;
+			buildPhases = (
+				F517578A26EA23A50026C00A /* Sources */,
+				F517578B26EA23A50026C00A /* Frameworks */,
+				F517578C26EA23A50026C00A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TECHNIFUTUR-EViOS4";
+			productName = "TECHNIFUTUR-EViOS4";
+			productReference = F517578E26EA23A50026C00A /* TECHNIFUTUR-EViOS4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F517578626EA23A50026C00A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F517578D26EA23A50026C00A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F517578926EA23A50026C00A /* Build configuration list for PBXProject "TECHNIFUTUR-EViOS4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F517578526EA23A50026C00A;
+			productRefGroup = F517578F26EA23A50026C00A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F517578D26EA23A50026C00A /* TECHNIFUTUR-EViOS4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F517578C26EA23A50026C00A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51757CF26EA299D0026C00A /* ExpenseTableViewCell.xib in Resources */,
+				F517579E26EA23A80026C00A /* LaunchScreen.storyboard in Resources */,
+				F517579B26EA23A80026C00A /* Assets.xcassets in Resources */,
+				F517579926EA23A50026C00A /* Main.storyboard in Resources */,
+				F51757D426EA2BA40026C00A /* ExpenseSectionTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F517578A26EA23A50026C00A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F517579226EA23A50026C00A /* AppDelegate.swift in Sources */,
+				F51757C126EA255D0026C00A /* ExpenseSection+CoreDataProperties.swift in Sources */,
+				F51757B426EA24630026C00A /* DepensesViewController.swift in Sources */,
+				F51757D726EA2BBC0026C00A /* AddExpenseViewController.swift in Sources */,
+				F51757B826EA24980026C00A /* Model.xcdatamodeld in Sources */,
+				F51757D326EA2BA40026C00A /* ExpenseSectionTableViewCell.swift in Sources */,
+				F51757AB26EA23FA0026C00A /* UserDefaultManager.swift in Sources */,
+				F51757BE26EA255D0026C00A /* Expense+CoreDataClass.swift in Sources */,
+				F51757BF26EA255D0026C00A /* Expense+CoreDataProperties.swift in Sources */,
+				F51757C026EA255D0026C00A /* ExpenseSection+CoreDataClass.swift in Sources */,
+				F51757CE26EA299D0026C00A /* ExpenseTableViewCell.swift in Sources */,
+				F51757C426EA257C0026C00A /* ExpensesManager.swift in Sources */,
+				F517579426EA23A50026C00A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F517579726EA23A50026C00A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F517579826EA23A50026C00A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F517579C26EA23A80026C00A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F517579D26EA23A80026C00A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F51757A026EA23A80026C00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F51757A126EA23A80026C00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F51757A326EA23A80026C00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TECHNIFUTUR-EViOS4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.technipixl.Adrien.TECHNIFUTUR-EViOS4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F51757A426EA23A80026C00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TECHNIFUTUR-EViOS4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.technipixl.Adrien.TECHNIFUTUR-EViOS4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F517578926EA23A50026C00A /* Build configuration list for PBXProject "TECHNIFUTUR-EViOS4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51757A026EA23A80026C00A /* Debug */,
+				F51757A126EA23A80026C00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F51757A226EA23A80026C00A /* Build configuration list for PBXNativeTarget "TECHNIFUTUR-EViOS4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51757A326EA23A80026C00A /* Debug */,
+				F51757A426EA23A80026C00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F51757B626EA24980026C00A /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F51757B726EA24980026C00A /* Model.xcdatamodel */,
+			);
+			currentVersion = F51757B726EA24980026C00A /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F517578626EA23A50026C00A /* Project object */;
+}
